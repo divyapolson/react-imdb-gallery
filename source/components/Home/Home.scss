@@ -1,0 +1,35 @@
+.Home {
+    text-align: center;
+
+    .searchBar {
+      position: relative;
+      width: 300px;
+      top: 120px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .movies {
+      padding: 1.5% 10% 0 10%;
+      position: relative;
+      top: 100px;
+      text-align: center;
+    }
+
+    .hoverme:hover {
+        background-color: #DADFE1;
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .centerMe {
+      margin: 0 auto;
+    }
+
+    .mybutton:hover {
+      background-color: black;
+      color: white;
+    }
+
+}

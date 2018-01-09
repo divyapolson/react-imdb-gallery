@@ -1,0 +1,27 @@
+.Gallery{
+    text-align: center;
+
+    h2:hover {
+      color: #ee1515;
+    }
+
+    .moviesgallery {
+      padding: 0 7% 0 7%;
+    }
+
+    .hover:hover {
+      box-shadow: 8px 8px 4px grey;
+      -webkit-transform: rotateZ(2deg);
+      -ms-transform: rotateZ(2deg);
+      transform: rotateZ(2deg);
+    }
+
+    .mybutton:hover {
+      background-color: black;
+      color: white;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+    }
+
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Open+Sans');
+
+//SASS VARIABLE(S)
+
+$myfont: 'Open Sans', sans-serif;
+
+body {
+  background-color: #fcfcfc;
+  font-family: $myfont;
+}
+
+input {
+  font-family: $myfont;
+}
+
+.nav {
+  background-color: black;
+  width: 100%;
+  vertical-align: middle;
+  height: 115px;
+  text-align: center;
+  padding: 35px;
+  top: 0;
+
+  .links {
+    color: white;
+  }
+
+  h1 {
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    font-size: 3em;
+    line-height: 0.5em;
+  }
+
+  h2 {
+    font-size: 1em;
+    display: inline;
+    word-spacing: 10px;
+  }
+
+  a:hover {
+    color: #6BB9F0;
+  }
+
+}
